@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Text to Speech + Transliteration</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.google.com/jsapi"></script> <!-- Load Google API -->
+</head>
+<body>
+  <div class="container">
+    <h1>Text to Speech Converter 🔊</h1>
+
+    <p>API Key Status: <span id="apiKeyStatus">❌</span></p>
+
+    <textarea id="inputText" rows="5" placeholder="Type English to convert into Odia speech..."></textarea>
+
+    <div class="controls">
+      <select id="targetLang">
+        <option value="or">Odia</option>
+        <option value="en">English</option>
+      </select>
+
+      <button onclick="convertToSpeech()">Convert to Speech</button>
+      <button onclick="translateText()">Translate</button>
+      <button onclick="playVoice()">Play Voice</button>
+    </div>
+
+    <div id="status" class="status"></div>
+    <p><strong>Translated Output:</strong></p>
+    <div id="outputText" class="output"></div>
+
+    <audio id="audioPlayer" controls style="display: none;"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
