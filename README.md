@@ -25,7 +25,7 @@ Many members of the Odia community face language barriers when accessing global 
 
 ## 🖼️ Screenshots
 
-![Image](https://github.com/user-attachments/assets/49d3fa6c-cdca-4a63-90c8-02dc6bc7e069)
+![Image](https://github.com/user-attachments/assets/f5d0c23d-d820-468e-b84b-cbb343f30645)
 
 ## 🤝 Contribution
 
