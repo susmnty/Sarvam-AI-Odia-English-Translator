@@ -29,6 +29,5 @@ Many members of the Odia community face language barriers when accessing global 
 
 ## 🤝 Contribution
 
-- I developed this project solo for the Startup Advocate path.
 - My main focus was translation for social/community upliftment using a local language.
 - Current focus was on frontend + partial backend; enhancements will follow once API is stable.
